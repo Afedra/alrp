@@ -1,0 +1,38 @@
+astroid
+backports.functools-lru-cache
+beautifulsoup4
+bs4
+certifi
+chardet
+configparser
+cycler
+decorator
+enum34
+functools32
+idna
+isort
+lazy-object-proxy
+matplotlib
+mccabe
+networkx
+numpy
+olefile
+Pillow
+pylint
+pyparsing
+python-dateutil
+pytz
+PyWavelets
+requests
+scikit-image
+scikit-learn
+scipy
+singledispatch
+six
+subprocess32
+urllib3
+wrapt
+pip install -U \
+    -f https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-16.04 \
+    wxPython
+wx

@@ -1,0 +1,150 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AccuracyValidation	ml_code/ml_validation.py	/^class AccuracyValidation():$/;"	c
+BASE_URL	pymvrd.py	/^BASE_URL = 'http:\/\/www.lsmvaapvs.org'$/;"	v
+DBConnection	dbAspect.py	/^class DBConnection():$/;"	c
+DeepMachineLearning	deepMachine.py	/^class DeepMachineLearning():$/;"	c
+MachineLearningConfig	ml_code/ml_config.py	/^class MachineLearningConfig():$/;"	c
+Mvrd	pymvrd.py	/^class Mvrd:$/;"	c
+OCROnObjects	ocr.py	/^class OCROnObjects():$/;"	c
+PreProcess	preprocess.py	/^class PreProcess():$/;"	c
+TestPreProcess	tests/TestPreProcess.py	/^class TestPreProcess():$/;"	c
+TestTextClassification	tests/TestTextClassification.py	/^class TestTextClassification():$/;"	c
+TextClassification	textclassification.py	/^class TextClassification:$/;"	c
+__author__	pymvrd.py	/^__author__ = 'othreecodes'$/;"	v
+__del__	gui.py	/^    def __del__( self ):$/;"	m	class:frame_alpr	file:
+__init__	dbAspect.py	/^    def __init__(self):$/;"	m	class:DBConnection
+__init__	deepMachine.py	/^    def __init__(self):$/;"	m	class:DeepMachineLearning
+__init__	gui.py	/^    def __init__(self, parent=None):$/;"	m	class:frame_alpr
+__init__	ml_code/ml_config.py	/^    def __init__(self):$/;"	m	class:MachineLearningConfig
+__init__	ml_code/ml_validation.py	/^    def __init__(self):$/;"	m	class:AccuracyValidation
+__init__	ocr.py	/^    def __init__(self, license_plate):$/;"	m	class:OCROnObjects
+__init__	preprocess.py	/^    def __init__(self, image_location):$/;"	m	class:PreProcess
+__init__	pymvrd.py	/^    def __init__(self,plate_number):$/;"	m	class:Mvrd
+accuracy	ml_code/model_comparison.py	/^    accuracy = (float(np.sum(prediction == target_test)) \/ len(target_test))$/;"	v
+binaryImg	ml_code/machinelearning.py	/^        binaryImg = np.reshape(letterDetails, -1)$/;"	v
+classify_objects	deepMachine.py	/^    def classify_objects(self, objects, model, tuple_resize):$/;"	m	class:DeepMachineLearning
+clean_html_tags	pymvrd.py	/^def clean_html_tags(raw_html):$/;"	f
+config	ml_code/decision_tree.py	/^config = MachineLearningConfig()$/;"	v
+config	ml_code/dim_reduction.py	/^config = MachineLearningConfig()$/;"	v
+config	ml_code/gaussian_naive_bayes.py	/^config = MachineLearningConfig()$/;"	v
+config	ml_code/k-neighbors.py	/^config = MachineLearningConfig()$/;"	v
+config	ml_code/model_comparison.py	/^config = MachineLearningConfig()$/;"	v
+config	ml_code/model_comparison2.py	/^config = MachineLearningConfig()$/;"	v
+config	ml_code/random_forest.py	/^config = MachineLearningConfig()$/;"	v
+config	ml_code/svm.py	/^config = MachineLearningConfig()$/;"	v
+confusing_chars	ml_code/templatematching.py	/^confusing_chars = {'2', 'Z', 'B', '8', 'D', '0', '5', 'S', 'Q', 'R', '7'}$/;"	v
+confusing_chars	templatematching.py	/^confusing_chars = {'2', 'Z', 'B', '8', 'D', '0', '5', 'S', 'Q', 'R', '7'}$/;"	v
+count	ml_code/machinelearning.py	/^count=0;$/;"	v
+cross_validation	ml_code/ml_validation.py	/^    def cross_validation(self, model, num_of_fold, train_data, train_label):$/;"	m	class:AccuracyValidation
+dec_tree	ml_code/model_comparison2.py	/^dec_tree = DecisionTreeClassifier()$/;"	v
+denoise	preprocess.py	/^    def denoise(sefl, imgDetails):$/;"	m	class:PreProcess
+dimension_reduction	ml_code/ml_config.py	/^    def dimension_reduction(self, train_data, number_of_components):$/;"	m	class:MachineLearningConfig
+eachGroupDir	ml_code/machinelearning.py	/^    eachGroupDir = imgListDir+each+'\\\\'$/;"	v
+eachTrainingImg	ml_code/machinelearning.py	/^        eachTrainingImg = eachGroupDir+each+'_'+str(aTraining)+'.jpg'$/;"	v
+enable_or_disable_buttons	gui.py	/^    def enable_or_disable_buttons(self, button_list, status):$/;"	m	class:frame_alpr
+execute_ALPR	full.py	/^def execute_ALPR(event):$/;"	f
+fig	ml_code/machinelearning.py	/^fig = plt.figure(figsize=(12, 12))$/;"	v
+fraction_match	ml_code/templatematching.py	/^def fraction_match(label, training_dir, image_data):$/;"	f
+fraction_match	templatematching.py	/^def fraction_match(label, training_dir, image_data):$/;"	f
+frame_alpr	gui.py	/^class frame_alpr (wx.Frame):$/;"	c
+gaussian_naive_bayes	ml_code/gaussian_naive_bayes.py	/^gaussian_naive_bayes = GaussianNB()$/;"	v
+get_data	pymvrd.py	/^    def get_data(self):$/;"	m	class:Mvrd
+get_plate_like_objects	preprocess.py	/^    def get_plate_like_objects(self):$/;"	m	class:PreProcess
+get_regions	ocr.py	/^    def get_regions(self, character_objects, a_license_plate):$/;"	m	class:OCROnObjects
+get_root_directory	ml_code/ml_config.py	/^    def get_root_directory(self):$/;"	m	class:MachineLearningConfig
+get_text	textclassification.py	/^    def get_text(self, machine_learning_result):$/;"	m	class:TextClassification
+gnb	ml_code/model_comparison2.py	/^gnb = GaussianNB()$/;"	v
+guiFrame	ALPR.py	/^guiFrame = frame_alpr()$/;"	v
+identify_boundary_objects	ocr.py	/^    def identify_boundary_objects(self, a_license_plate):$/;"	m	class:OCROnObjects
+image	misc/templatematching.py	/^    image = image < threshold_otsu(image)$/;"	v
+image	misc/templatematching.py	/^    image = imread("C:\\\\Users\\\\Oladeji Femi\\\\Documents\\\\programs\\\\python\\\\License-Plate-Recognition-Nigerian-vehicles-\\\\training_data\\\\train20X20\\\\2\\\\2_"+str(i)+".jpg", as_grey=True)$/;"	v
+imageData	ml_code/machinelearning.py	/^imageData = []$/;"	v
+imagepath	full.py	/^imagepath = ''$/;"	v
+imgListDir	ml_code/machinelearning.py	/^imgListDir = 'C:\\Users\\Oladeji Femi\\Documents\\project_stuffs\\programs\\mine\\platenumberchars\\\\train\\\\'$/;"	v
+inverted_threshold	preprocess.py	/^    def inverted_threshold(self, grayscale_image):$/;"	m	class:PreProcess
+learn	deepMachine.py	/^    def learn(self, objects_to_classify, modelDir, tuple_size):$/;"	m	class:DeepMachineLearning
+letterDetails	ml_code/machinelearning.py	/^        letterDetails = readandpreprocess(eachTrainingImg)$/;"	v
+letters	ml_code/machinelearning.py	/^letters = list(lettersDict.keys())$/;"	v
+lettersDict	ml_code/machinelearning.py	/^lettersDict = {'0':10,'1':10,'2':10,'3':10,'4':10,'5':10,'6':10,'7':10,'8':10,'9':10,'A':10,'B':10,'C':10,'D':10,'E':10,'F':10,'G':10,'H':10,'J':10,'K':10,'L':10,'M':10,'N':10,'P':10,'Q':10,'R':10,'S':10,'T':10,'U':10,'V':10,'W':10,'X':10,'Y':10,'Z':10}$/;"	v
+license_plate_extract	full.py	/^def license_plate_extract(plate_like_objects, pre_process):$/;"	f
+listResult	full.py	/^listResult = ''$/;"	v
+listRow	full.py	/^listRow = 0$/;"	v
+load_model	deepMachine.py	/^    def load_model(self, model_dir):$/;"	m	class:DeepMachineLearning
+model	ml_code/machinelearning.py	/^model = SVC()$/;"	v
+models	ml_code/model_comparison.py	/^models = {$/;"	v
+models	ml_code/model_comparison2.py	/^models = {$/;"	v
+myALPR	ALPR.py	/^myALPR = wx.App()$/;"	v
+n_model	ml_code/model_comparison.py	/^n_model = KNeighborsClassifier(n_neighbors=3)$/;"	v
+n_model	ml_code/model_comparison2.py	/^n_model = KNeighborsClassifier(n_neighbors=3)$/;"	v
+n_model2	ml_code/model_comparison.py	/^n_model2 = KNeighborsClassifier(n_neighbors=4)$/;"	v
+n_model2	ml_code/model_comparison2.py	/^n_model2 = KNeighborsClassifier(n_neighbors=4)$/;"	v
+n_model3	ml_code/model_comparison2.py	/^n_model3 = KNeighborsClassifier(n_neighbors=5)$/;"	v
+neighbor_model	ml_code/k-neighbors.py	/^neighbor_model = KNeighborsClassifier(n_neighbors=3)$/;"	v
+new_image_data	ml_code/dim_reduction.py	/^new_image_data = pca.fit_transform(image_data)$/;"	v
+num_of_test	ml_code/model_comparison.py	/^num_of_test = len(img_test)$/;"	v
+open_image_menu	gui.py	/^    def open_image_menu(self, event):$/;"	m	class:frame_alpr
+parse_response	pymvrd.py	/^def parse_response(response):$/;"	f
+pca	ml_code/dim_reduction.py	/^pca = PCA(2)$/;"	v
+permutation	ml_code/machinelearning.py	/^permutation = rng.permutation(len(imageData))$/;"	v
+plot_cca	plotting.py	/^def plot_cca(image, objects_cordinates):$/;"	f
+prediction	ml_code/model_comparison.py	/^    prediction = a_model.predict(img_test)$/;"	v
+prediction2dlist	ml_code/model_comparison.py	/^prediction2dlist = []$/;"	v
+print_wrong_predictions	ml_code/ml_validation.py	/^    def print_wrong_predictions(self, predictions, correct_labels, img_test, model):$/;"	m	class:AccuracyValidation
+prob_predictions	ml_code/model_comparison.py	/^            prob_predictions = models[a_model_name].predict_proba($/;"	v
+rand_forest	ml_code/model_comparison2.py	/^rand_forest = RandomForestClassifier()$/;"	v
+rand_forest_classifier	ml_code/random_forest.py	/^rand_forest_classifier = RandomForestClassifier()$/;"	v
+read_training_data	ml_code/ml_config.py	/^    def read_training_data(self, training_directory):$/;"	m	class:MachineLearningConfig
+readandpreprocess	ml_code/machinelearning.py	/^def readandpreprocess(imageDir):$/;"	f
+remove_image	gui.py	/^    def remove_image(self, event):$/;"	m	class:frame_alpr
+resize_if_necessary	preprocess.py	/^    def resize_if_necessary(self, image_to_resize):$/;"	m	class:PreProcess
+rng	ml_code/machinelearning.py	/^rng = np.random.RandomState(0)$/;"	v
+save_alpr	dbAspect.py	/^    def save_alpr(self, license_plate_text, moment):$/;"	m	class:DBConnection
+save_model	ml_code/ml_config.py	/^    def save_model(self, model, foldername):$/;"	m	class:MachineLearningConfig
+scores	ml_code/machinelearning.py	/^scores = cross_val_score(model, imageData, targetData)$/;"	v
+scores	ml_code/model_comparison2.py	/^    scores = cross_val_score(a_model, image_data, target_data, cv=4)$/;"	v
+setup_class	tests/TestPreProcess.py	/^    def setup_class(self):$/;"	m	class:TestPreProcess
+setup_class	tests/TestTextClassification.py	/^    def setup_class(self):$/;"	m	class:TestTextClassification
+showImage	ml_code/machinelearning.py	/^def showImage(imgArray, i, char):$/;"	f
+showPreviewImage	gui.py	/^    def showPreviewImage(self):$/;"	m	class:frame_alpr
+similar_characters	misc/templatematching.py	/^similar_characters = {$/;"	v
+similar_characters	ml_code/templatematching.py	/^similar_characters = {$/;"	v
+similar_characters	templatematching.py	/^similar_characters = {$/;"	v
+split_validation	ml_code/ml_validation.py	/^    def split_validation(self, model, image_data, target_data, wrong_predictions = False):$/;"	m	class:AccuracyValidation
+start	ml_code/model_comparison2.py	/^    start = time.time()$/;"	v
+sum	misc/templatematching.py	/^sum = 0.0$/;"	v
+sv_model1	ml_code/model_comparison.py	/^sv_model1 = SVC(kernel='linear', probability=True)$/;"	v
+sv_model1	ml_code/model_comparison2.py	/^sv_model1 = SVC(kernel='linear')$/;"	v
+sv_model2	ml_code/model_comparison.py	/^sv_model2 = SVC(kernel='rbf', probability=True)$/;"	v
+sv_model2	ml_code/model_comparison2.py	/^sv_model2 = SVC(kernel='rbf')$/;"	v
+sv_model3	ml_code/model_comparison2.py	/^sv_model3 = SVC(kernel='poly')$/;"	v
+svc_model	ml_code/svm.py	/^svc_model = SVC(kernel='linear', probability=True)$/;"	v
+targetData	ml_code/machinelearning.py	/^targetData = []$/;"	v
+template	misc/templatematching.py	/^template = imread("C:\\\\Users\\\\Oladeji Femi\\\\Documents\\\\programs\\\\python\\\\License-Plate-Recognition-Nigerian-vehicles-\\\\training_data\\\\train20X20\\\\2\\\\2_3.jpg", as_grey=True)$/;"	v
+template	misc/templatematching.py	/^template = template < threshold_otsu(template)$/;"	v
+template_match	ml_code/templatematching.py	/^def template_match(predicted_label, image_data, training_dir):$/;"	f
+template_match	templatematching.py	/^def template_match(predicted_label, image_data, training_dir):$/;"	f
+test_get_text	tests/TestTextClassification.py	/^    def test_get_text(self):$/;"	m	class:TestTextClassification
+test_resize_if_necessary	tests/TestPreProcess.py	/^    def test_resize_if_necessary(self):$/;"	m	class:TestPreProcess
+test_text_reconstruction	tests/TestTextClassification.py	/^    def test_text_reconstruction(self):$/;"	m	class:TestTextClassification
+text_reconstruction	textclassification.py	/^    def text_reconstruction(self, plate_string, position_list):$/;"	m	class:TextClassification
+threshold	preprocess.py	/^    def threshold(self, gray_image):$/;"	m	class:PreProcess
+thresholdImage	ml_code/machinelearning.py	/^def thresholdImage(imageDetails):$/;"	f
+timediff	ml_code/model_comparison2.py	/^    timediff = time.time() - start$/;"	v
+top_predictions	ml_code/ml_validation.py	/^    def top_predictions(self, probabilities_prediction):$/;"	m	class:AccuracyValidation
+training_directory	ml_code/model_comparison.py	/^training_directory = config.training_data[0]$/;"	v
+training_directory	ml_code/model_comparison2.py	/^training_directory = config.training_data[0]$/;"	v
+tree_classifier	ml_code/decision_tree.py	/^tree_classifier = DecisionTreeClassifier()$/;"	v
+v	misc/templatematching.py	/^    v = match_template(image, template)$/;"	v
+validate	ml_code/decision_tree.py	/^validate = AccuracyValidation()$/;"	v
+validate	ml_code/gaussian_naive_bayes.py	/^validate = AccuracyValidation()$/;"	v
+validate	ml_code/k-neighbors.py	/^validate = AccuracyValidation()$/;"	v
+validate	ml_code/model_comparison.py	/^validate = AccuracyValidation()$/;"	v
+validate	ml_code/model_comparison2.py	/^validate = AccuracyValidation()$/;"	v
+validate	ml_code/random_forest.py	/^validate = AccuracyValidation()$/;"	v
+validate	ml_code/svm.py	/^validate = AccuracyValidation()$/;"	v
+validate_plate	preprocess.py	/^    def validate_plate(self, candidates):$/;"	m	class:PreProcess

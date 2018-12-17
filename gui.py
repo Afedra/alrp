@@ -14,7 +14,7 @@ class frame_alpr (wx.Frame):
         """
         initializes the frame display
         """
-        wx.Frame.__init__(self, parent, id = wx.ID_ANY, title=u"ALPR",
+        wx.Frame.__init__(self, parent, id = wx.ID_ANY, title=u"LICENCE PLATE RECOGNITION SYSTEM, MUK 2018/2019",
             pos=wx.DefaultPosition, size=wx.Size(800, 800),
             style=wx.DEFAULT_FRAME_STYLE|wx.TAB_TRAVERSAL)
         
@@ -23,13 +23,10 @@ class frame_alpr (wx.Frame):
         self.menubar = wx.MenuBar(0)
         self.menu_file = wx.Menu()
         self.menuitem_openfile = wx.MenuItem(self.menu_file, wx.ID_ANY,
-            u"Open File", wx.EmptyString, wx.ITEM_NORMAL)
+            u"Select Image", wx.EmptyString, wx.ITEM_NORMAL)
         self.menu_file.AppendItem(self.menuitem_openfile)
 
         self.menubar.Append(self.menu_file, u"File") 
-        
-        self.menu_about = wx.Menu()
-        self.menubar.Append(self.menu_about, u"About") 
         
         self.SetMenuBar(self.menubar)
         

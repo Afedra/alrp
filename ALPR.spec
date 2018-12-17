@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['ALPR.py'],
-             pathex=['C:\\Users\\Oladeji Femi\\Documents\\programs\\python\\License-Plate-Recognition-Nigerian-vehicles-'],
+             pathex=['License-Plate-Recognition'],
              binaries=[],
              datas=[],
              hiddenimports=[],
